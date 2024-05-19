@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Teachers", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(249, 245, 249); /* Scrollbar color */
+  border-radius: 20px; /* Capsule-shaped corners */
+  min-height: 20px; /* Minimum height to make it smaller */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Background of the scrollbar track */
+}
+
+/* Firefox */
+* {
+  /* scrollbar-width: thin; Thin scrollbar */
+  scrollbar-color: rgb(241, 177, 241) transparent; /* Scrollbar and track color */
+}
+
+/* For capsule shape in Firefox */
+body {
+  scrollbar-color: rgb(245, 184, 245) transparent;
+  /* scrollbar-width: thin; */
+}
+
+/* Adjust the thumb size and shape in Firefox */
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(245, 172, 245); /* Scrollbar color */
+  border-radius: 20px; /* Capsule-shaped corners */
+  min-height: 20px; /* Minimum height to make it smaller */
+}
