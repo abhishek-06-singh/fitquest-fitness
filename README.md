@@ -4,7 +4,7 @@
 
 ## Overview
 
-Fit Quest is the ultimate React Fitness App that offers a wide range of features to enhance your workout experience. From selecting exercise categories and specific muscle groups to browsing through a comprehensive database of exercises with practical examples, Golds Gym has it all.
+Fit Quest is the ultimate React Fitness App that offers a wide range of features to enhance your workout experience. From selecting exercise categories and specific muscle groups to browsing through a comprehensive database of exercises with practical examples, Fit quest has it all.
 
 ## Features
 
