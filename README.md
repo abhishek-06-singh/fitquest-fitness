@@ -1,6 +1,6 @@
-![Fit Quest]("../../src/utils/whitelogo.png")
+![Fit Quest](/src/utils/whitelogo.png)
 
-![Fit Quest Thumbnail]("../../src/utils/thumbnail.png")
+![Fit Quest Thumbnail](/src/utils/thumbnail.png)
 
 ## Overview
 
