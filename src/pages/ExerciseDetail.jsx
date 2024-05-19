@@ -4,8 +4,9 @@ import { useParams } from "react-router-dom";
 import { exerciseOptions, fetchData, youtubeOptions } from "../utils/fetchData";
 
 import Details from "../components/Details";
-// import ExerciseVideos from "../components/ExerciseVideos";
-// import SimilarExercises from "../components/SimilarExercises";
+import ExerciseVideos from "../components/ExerciseVideos";
+import SimilarExercises from "../components/SimilarExercises";
+
 const ExerciseDetail = () => {
   const [exerciseDetail, setExerciseDetail] = useState({});
   const [exerciseVideos, setExerciseVideos] = useState([]);
@@ -55,14 +56,14 @@ const ExerciseDetail = () => {
     <div className="flex flex-col gap-5">
       {" "}
       <Details exerciseDetail={exerciseDetail} />
-      {/* <ExerciseVideos
+      <ExerciseVideos
         exerciseVideos={exerciseVideos}
         name={exerciseDetail.name}
-      /> */}
-      {/* <SimilarExercises
+      />
+      <SimilarExercises
         targetMuscleExercises={targetMuscleExercises}
         equipmentExercises={equipmentExercises}
-      /> */}
+      />
     </div>
   );
 };

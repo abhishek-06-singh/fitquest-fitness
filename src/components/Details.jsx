@@ -55,7 +55,7 @@ const Details = ({ exerciseDetail }) => {
           </div>
           <img
             src={gifUrl}
-            className="w-[28rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[37rem] md:-ml-4 lg:-ml-0"
+            className="w-[18rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[37rem] md:-ml-4 lg:-ml-0"
           />
         </div>
       </div>
