@@ -6,6 +6,7 @@ import { exerciseOptions, fetchData, youtubeOptions } from "../utils/fetchData";
 import Details from "../components/Details";
 import ExerciseVideos from "../components/ExerciseVideos";
 import SimilarExercises from "../components/SimilarExercises";
+import VentaBirds from "../components/VentaBirds";
 
 const ExerciseDetail = () => {
   const [exerciseDetail, setExerciseDetail] = useState({});
@@ -55,6 +56,7 @@ const ExerciseDetail = () => {
   return (
     <div className="flex flex-col gap-5">
       {" "}
+      <VentaBirds exerciseDetail={exerciseDetail} />
       <Details exerciseDetail={exerciseDetail} />
       <ExerciseVideos
         exerciseVideos={exerciseVideos}

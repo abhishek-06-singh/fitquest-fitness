@@ -39,7 +39,7 @@ const BodyParts = ({ data, bodyParts, setBodyPart, bodyPart }) => {
               className="group"
               onClick={() => {
                 setBodyPart(item);
-                window.scrollTo({ top: 2800, left: 100, behavior: "smooth" });
+               
               }}
             >
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
